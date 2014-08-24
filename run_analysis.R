@@ -40,7 +40,7 @@ subjects <- rbind(
 
 unique_subjects <- unique(sort(subjects$id))
 
-options(stringsAsFactors=FALSE)
+options(stringsAsFactors=FALSE)  # don't treat activity_name as factors
 tidy_data <- data.frame()
 for (subject in unique_subjects) {
     for (activity in activity_labels$id) {
