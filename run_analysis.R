@@ -28,7 +28,7 @@ data_with_activity_names <- cbind(
 
 # Step 4: Add descriptive variable names
 
-col_names <- c(as.vector(features$name[mean_std_cols]), "activity")
+col_names <- c("activity", as.vector(features$name[mean_std_cols]))
 names(data_with_activity_names) <- col_names
 
 
