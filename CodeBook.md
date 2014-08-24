@@ -34,25 +34,26 @@ Variables of the dataset
 The variables below came from the original dataset. Refer to the original
 dataset's code book for more details.
 
-Each value is the average of all measurements taken for that particular subject,
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+
+Notes:
+
+* Each value is the average of all measurements taken for that particular subject,
 activity, and signal.
-
-'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
-'-mean()' is used to denote mean value.
-'-std()' is used to denote standard devitaion.
-
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
+* '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+* '-mean()' is used to denote mean value.
+* '-std()' is used to denote standard devitaion.
 
